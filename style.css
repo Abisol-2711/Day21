@@ -90,6 +90,18 @@ body {
 
 .btn {
   width: 10em;
+  height: 3em;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: none;
+}
+
+.btn:hover{
+    background-color: #d23a20;
+    color: var(--fontColor);
 }
 
 .contentImg {
@@ -109,15 +121,22 @@ body {
     position: absolute;
     top: 39em;
     left: 50em;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
  .contentPeople{
     display: flex;
     align-items: center;
+    margin-left: 1em;
+    margin-top: 1em;
  }
 
 .imgPeople {
-  width: 20%;
+  width: 15%;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -140,6 +159,7 @@ body {
 .data {
     font-family: var(--fontFamilySecondary);
     margin-top: 1em;
+    margin-left: .5em;
     font-size: 1.5em;
 }
 
