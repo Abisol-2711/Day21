@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #181719;
+  --fontColor: #ffffff;
+  --fontFamilyPrimary: "Montserrat", sans-serif;
+  --fontFamilySecondary: "Lora", serif;
+  --fontFamilyExtra: "Crimson Pro", serif;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--fontColor);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4em;
+}
+
+.logoBtn {
+  margin-left: 2em;
+  height: 3em;
+  width: 9em;
+  border: 1px solid var(--fontColor);
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: var(--fontColor);
+  font-family: var(--fontFamilyExtra);
+}
+
+.nav {
+  margin-right: 1em;
+  display: flex;
+  justify-content: space-around;
+  width: 20em;
+}
+
+.li {
+  list-style: none;
+}
+
+.a {
+  text-decoration: none;
+  color: #c0c0c0;
+  font-family: var(--fontFamilyPrimary);
+  font-weight: bold;
+}
+
+.a:hover {
+  color: var(--fontColor);
+  text-decoration: underline;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  height: 78vh;
+}
+
+.contentText {
+  height: 20em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 1.5em;
+  margin-right: 2em;
+}
+
+.h1 {
+  font-family: var(--fontFamilySecondary);
+  font-weight: 500;
+  font-size: 2.5em;
+}
+
+.text {
+  font-family: var(--fontFamilyPrimary);
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+.btn {
+  width: 10em;
+}
+
+.contentImg {
+  margin-right: 2em;
+  width: 200vw;
+}
+
+.imgRoom {
+  width: 100%;
+}
+
+.contentData{
+    background-color: var(--background);
+    width: 20em;
+    height: 10em;
+    z-index: 1;
+    position: absolute;
+    top: 39em;
+    left: 50em;
+}
+
+ .contentPeople{
+    display: flex;
+    align-items: center;
+ }
+
+.imgPeople {
+  width: 20%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 1em;
+}
+
+.name{
+    font-family: var(--fontFamilyPrimary);
+    margin-bottom: .3em;
+    font-weight: bold;
+}
+
+.work{
+    font-family: var(--fontFamilyPrimary);
+    color: #c0c0c0;
+}
+
+.data {
+    font-family: var(--fontFamilySecondary);
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+.footer p {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    text-shadow: 0.5px 0.5px white, -0.5px -0.5px #333;
+}
